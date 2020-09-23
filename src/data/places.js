@@ -1,0 +1,31 @@
+export default [
+    {
+        "id":1,
+        "name": "St. Sava Temple",
+        "short_description": "Holding a dominant position in the cityscape of the Serbian capital, the church of Saint Sava is perhaps the most monumental edifice in Belgrade.",
+        "description": "Holding a dominant position in the cityscape of the Serbian capital, the church of Saint Sava is perhaps the most monumental edifice in Belgrade. It is visible from any approach to the city. \nIt is located on the Vračar plateau, on the eastern part of the Svetosavski Trg square in Belgrade which is believed to be the location where the remains of Saint Sava were burned in 1595 by Ottoman Grand Vizier Sinan Pasha in order to break the Serbian spirit. \nThe Church of Saint Sava is the not only the largest Serbian Orthodox church, it is the largest Orthodox place of worship in the Balkans and one of the largest Orthodox churches in the world. \nThe following facts only bear witness to the sheer magnitude of the Temple: \nIts total height reaches an astounding 82 m with the dome being 70 m high and the main gold plated cross giving it an additional 12 m height. \nThe central dome is 4,000 ton heavy and its lifting was the greatest achievement of the construction process. The lifting itself took 40 days. \nThere are more than 49 bells in the bell towers and over 18 gold plated crosses on the its domes. \nToday, the Temple of Saint Sava holds a special place in the hearts of Belgraders. It is a gathering spot, a safe refuge and an important place of support for all those in need. In between its walls the residents of Serbia’s capital share their joy and their sorrow, and celebrating important holidays in front of it has become a tradition a long time ago.",
+        "images": ["hram-svetog-save-1.jpg", "hram-svetog-save-2.jpg", "hram-svetog-save-3.jpg"]
+    },
+    {
+        "id":2,
+        "name": "Belgrade’s statue of the Victor",
+        "short_description": "Built in 1912 by the Belgrade municipality in honor of the victory of the Serbian Army against Ottoman and Austro-Hungarian Empires in the First Balkan War. ",
+        "description": "Built in 1912 by the Belgrade municipality in honor of the victory of the Serbian Army against Ottoman and Austro-Hungarian Empires in the First Balkan War. The Victor was designed by distinguished sculptor Ivan Mestrovic. Originally, it was meant to be a part of Terazije Fountain, however, after World War I, the design was abandoned as the pubic opposed the sculpture of a nude male to be displayed in the city centre. Intellectuals of high reputation stood up in defense of Mestrovic work stating that it marked the beginning of the fight “against moral and hipocrisy and in favor of the art”, so the municipality of Belgrade decided to move The Victor to Kalemegdan Fortress, still insisting that it’s nude front should face the marshy area across the Sava River. \nThe place where the monument stays today was the location of the palace of Despot Stefan Lazarevic - the ruler of Serbia from 1402 - 1427. As a very intelligent person who loved science and art, he formed a rich library collection and turned Belgrade into a true Rennaissance town. His palace was destroyed in the late 17th century in a gunpowder magazine explosion. \n",
+        "images": ["kalemegdan-1.jpg", "kalemegdan-2.jpg", "kalemegdan-3.jpg"]
+    },
+    {
+        "id":3,
+        "name": "Topcider Park",
+        "short_description": "Topčider Park, the oldest park in Belgrade, is located on the lush Topčider hill which greenery hides the Topčider River.",
+        "description": "Topčider Park, the oldest park in Belgrade, is located on the lush Topčider hill which greenery hides the Topčider River. In this idyllic scenery Serbian Prince Miloš Obrenović built his residence (The Residence of Prince Miloš) that later became the Palace of the Principality of Serbia, today a part of the Museum of Serbian History. Topčider has remained a favorite picnic-site of Belgraders due to its extraordinary nature, historical significance and restaurants of traditional cuisine. \nDuring the early 16th century Turks casted here cannons for the attack on Belgrade. Then it became the favorite picnic site of Belgrade Pashas and later of Austrian gentlemen, until Prince Miloš decided to build a residence and palace complex. A story has it that the Prince was so fascinated with the nature that he passed the order that “…no carriages would be allowed here, in order not to spoil the meadows!” \nToday Topčider is more than a park and picnic site that treasures an important part of the Serbian history. The Topčider River with several wooden bridges adds to its charm. Romantic ambient of the Park is particularly interesting to newlyweds who come here before the wedding in order to have their photos taken and to take a ride on a carriage, making the most beautiful memories of this special day.",
+        "images": ["topcider-1.jpg", "topcider-2.jpg", "topcider-3.jpg"]
+    },
+    {
+        "id":4,
+        "name": "Skadarlija",
+        "short_description": "See how the most famous bohemian quarter of the capital city still looks like years later.",
+        "description": "See how the most famous bohemian quarter of the capital city still looks like years later. There are no weekends here because this is the place where you can dance and sing every single day. This is the place where you don’t need much money. \nThe only thing you need is good mood. The unique face of the heart of Belgrade, becomes even brighter and warmer during holidays- the time when the most famous kafanas in the city become the center of meeting with friends and also the center of life. \nThe sounds of the tambourine and harmonica which become even louder when the doors open, and muffled when a cheerful guest close them insensitively. The scent of the traditional dishes which is spreading around and increasing the appetite relentlessly. Smiling faces of the hugged friends who are singing one of the favorite songs in kafanas, and only a few bohemians tired of singing and dancing, walking back home late at night.",
+        "images": ["skadarlija-1.jpg", "skadarlija-2.jpg", "skadarlija-3.jpg"]
+    }
+    
+]

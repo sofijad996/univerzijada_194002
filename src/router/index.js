@@ -1,22 +1,69 @@
 import Vue from 'vue'
 import VueRouter from 'vue-router'
-import Home from '../views/Home.vue'
+import Organizator from '../views/Organizator.vue'
+import Student from '../views/Student.vue'
+import Login from '../views/Login.vue'
+import Places from '../views/Places.vue'
+import PlaceDetails from '../components/PlaceDetails.vue'
+import StudentProfile from '../components/StudentProfile.vue'
+import OrganizatorProfile from '../components/StudentProfile.vue'
+import StudentEdit from '../components/StudentEdit.vue'
+import OrganizatorEdit from '../components/OrganizatorEdit.vue'
+import GamesAdd from '../components/GamesAdd.vue'
 
 Vue.use(VueRouter)
 
 const routes = [
+  
   {
     path: '/',
-    name: 'Home',
-    component: Home
+    name: 'login',
+    component: Login
   },
   {
-    path: '/about',
-    name: 'About',
-    // route level code-splitting
-    // this generates a separate chunk (about.[hash].js) for this route
-    // which is lazy-loaded when the route is visited.
-    component: () => import(/* webpackChunkName: "about" */ '../views/About.vue')
+    path: '/organizator',
+    name: 'organizator',
+    component: Organizator
+  },
+  {
+    path: '/student',
+    name: 'student',
+    component: Student
+  },
+  {
+    path: '/student/places',
+    name: 'places',
+    component: Places
+  },
+  {
+    path:'/placedetails/:id',
+    name:'placedetails',
+    component: PlaceDetails
+  },
+  {
+    path: '/student/profile',
+    name: 'profile',
+    component: StudentProfile
+  },
+  {
+    path: '/organizator/profile',
+    name: 'profile',
+    component: OrganizatorProfile
+  },
+  {
+    path: '/student/editprofile',
+    name: 'studentEdit',
+    component: StudentEdit
+  },
+  {
+    path: '/organizator/editprofile',
+    name: 'organizatorEdit',
+    component: OrganizatorEdit
+  },
+  {
+    path: '/organizator/gamesadd',
+    name: 'gamesAdd',
+    component: GamesAdd
   }
 ]
 
